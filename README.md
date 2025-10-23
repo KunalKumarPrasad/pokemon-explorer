@@ -10,7 +10,7 @@ Tech Stack
 
 1. Installation
 
-- Dwnload zip file from github and unzip it
+- Dwnload zip file from github and unzip it as pokemon-explorer
 - Go inside root directory :
     - cd pokemon-explorer
 
@@ -43,6 +43,7 @@ The postinstall script installs dependencies for backend and frontend automatica
 
         - cd frontend
         - npm run start
+
 
 
 
