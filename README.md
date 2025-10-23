@@ -10,10 +10,8 @@ Tech Stack
 
 1. Installation
 
-- Clone the repository :
-
-    - git clone <repo-url>
-    - cd pokemon-explorer
+- Clone the repository using git clone command from github
+- cd pokemon-explorer
 
 - Install dependencies for both frontend and backend:
 
@@ -44,4 +42,5 @@ The postinstall script installs dependencies for backend and frontend automatica
 
         - cd frontend
         - npm run start
+
 
