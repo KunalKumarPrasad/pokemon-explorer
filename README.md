@@ -1,59 +1,52 @@
-Pokémon Explorer
+# Pokémon Explorer
 
 A simple full-stack application that displays Pokémon information with a list and detail view.
 
-Tech Stack
-
-- Backend: Node.js, Express, TypeScript, Axios
-- Frontend: React, TypeScript, Bootstrap
-- External API: [PokéAPI](https://pokeapi.co/docs/v2)
+## Tech Stack
+- **Backend:** Node.js, Express, TypeScript, Axios  
+- **Frontend:** React, TypeScript, Bootstrap  
+- **External API:** https://pokeapi.co/docs/v2
 
 ## Prerequisites
+Install **Node.js** from [https://nodejs.org/](https://nodejs.org/)
 
-Install **Node.js**. Download from: https://nodejs.org/  
-   Verify installation:
-    - node -v
-    - npm -v
+Verify installation:
+```bash
+node -v
+npm -v
+```
 
-1. Installation
+## Installation
+1. Download the zip file from GitHub and unzip it, or clone the repository.  
+2. Navigate to the root project folder.  
+3. Install dependencies for both frontend and backend:
+```bash
+npm install
+```
+The `postinstall` script automatically installs dependencies for both **backend** and **frontend**.
 
-- Dwnload zip file from github and unzip it or clone the repo
-- Navigate inside the root directory.
+## Running the Project
 
-- Install dependencies for both frontend and backend:
+### Run Both Frontend and Backend Together
+From the root folder:
+```bash
+npm start
+```
 
-    - npm install
+This runs:
+- Backend → http://localhost:5000  
+- Frontend → http://localhost:3000  
 
-The postinstall script installs dependencies for backend and frontend automatically.
+### Run Separately
 
+**Backend:**
+```bash
+cd backend
+npm start
+```
 
-2. How to run the project?
-
-- You can run both frontend and backend together from the root folder :
-
-    - npm run start
-
-    This run :
-    
-    Backend: http://localhost:5000
-    Frontend: http://localhost:3000
-
-- Separately you can run :
-
-    - For Backend
-
-        - cd backend
-        - npm run start
-
-    - For Frontend
-
-        - cd frontend
-        - npm run start
-
-
-
-
-
-
-
-
+**Frontend:**
+```bash
+cd frontend
+npm start
+```
