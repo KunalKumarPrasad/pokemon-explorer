@@ -10,7 +10,7 @@ Tech Stack
 
 1. Installation
 
-- Dwnload zip file from github and unzip it
+- Dwnload zip file from github and unzip it or clone the repo
 - Navigate inside the root directory.
 
 - Install dependencies for both frontend and backend:
@@ -42,6 +42,7 @@ The postinstall script installs dependencies for backend and frontend automatica
 
         - cd frontend
         - npm run start
+
 
 
 
