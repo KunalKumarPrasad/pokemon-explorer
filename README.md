@@ -12,12 +12,12 @@ Tech Stack
 
 - Clone the repository :
 
-    git clone <repo-url>
-    cd pokemon-explorer
+    - git clone <repo-url>
+    - cd pokemon-explorer
 
 - Install dependencies for both frontend and backend:
 
-    npm install
+    - npm install
 
 The postinstall script installs dependencies for backend and frontend automatically.
 
@@ -26,7 +26,7 @@ The postinstall script installs dependencies for backend and frontend automatica
 
 - You can run both frontend and backend together from the root folder :
 
-    npm run start
+    - npm run start
 
     This run :
     
@@ -37,10 +37,11 @@ The postinstall script installs dependencies for backend and frontend automatica
 
     - For Backend
 
-        cd backend
-        npm run start
+        - cd backend
+        - npm run start
 
     - For Frontend
 
-        cd frontend
-        npm run start
+        - cd frontend
+        - npm run start
+
