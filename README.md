@@ -11,7 +11,8 @@ Tech Stack
 1. Installation
 
 - Dwnload zip file from github and unzip it
-- cd pokemon-explorer
+- Go inside root directory :
+    - cd pokemon-explorer
 
 - Install dependencies for both frontend and backend:
 
@@ -42,6 +43,7 @@ The postinstall script installs dependencies for backend and frontend automatica
 
         - cd frontend
         - npm run start
+
 
 
 
