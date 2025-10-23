@@ -8,6 +8,13 @@ Tech Stack
 - Frontend: React, TypeScript, Bootstrap
 - External API: [PokéAPI](https://pokeapi.co/docs/v2)
 
+## Prerequisites
+
+Install **Node.js**. Download from: https://nodejs.org/  
+   Verify installation:
+    - node -v
+    - npm -v
+
 1. Installation
 
 - Dwnload zip file from github and unzip it or clone the repo
@@ -42,6 +49,7 @@ The postinstall script installs dependencies for backend and frontend automatica
 
         - cd frontend
         - npm run start
+
 
 
 
